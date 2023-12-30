@@ -5,7 +5,7 @@
 }
 body{
     width: 100vw;
-    height:1000vh;
+    height:950vh;
     background-color: blueviolet;
     display: block;
 }
@@ -767,13 +767,111 @@ background-color: indigo;
   display: flex;
   height:35vh;
   width: 100vw;
-  /* background-color: #fcd21c; */
+  color: darkslategray;
   text-align: justify;
   justify-content: center;
   padding:0px 120px 0px 120px;
   font-size: 12px;
   line-height: 20px;
   background-color: white;
+ }
+ .symbol{
+    height:25vh;
+    width:100vw;
+    /* background-color: #fcd21c; */
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+     
+    
+ }
+ .symbol>img{
+    height:100%;
+    width:10%;
+ }
+ .meassage{
+    height:40vh;
+    width:100vw;
+    /* background-color: #fcd21c; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 60px 100px 60px 100px;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+ }
+ .message2{
+    height:40vh;
+    width:100vw;
+    /* background-color: #fcd21c; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 30px 100px 100px 100px;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+ }
+ .certificate{
+    height:70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: #fcd21c; */
+    background: white;
+ }
+ .certificate2{
+    height:70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: #fcd21c; */
+    background: white;
+ }
+ .last{
+    height:80vh;
+    width: 100vw;
+    background-color: rgb(2, 2, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+ .about{
+    /* background-color: #fcd21c; */
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    line-height: 20px;
+ }
+ .PROGRAMS{
+    /* background-color: #fcd21c; */
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    line-height: 20px;
+ }
+ .LIFENIST{
+    /* background-color: #fcd21c; */
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    line-height: 20px;
+ }
+ .quick{
+    /* background-color: #fcd21c; */
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    line-height: 20px;
  }
 @keyframes blink{
     0%{
