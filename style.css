@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    overflow-x: hidden;
 }
 body{
     width: 100vw;
@@ -49,9 +51,9 @@ body{
     align-items: center;
     
 }
-.middle1{
+ .middle1{
     width: 72vw;
-    height:2rem;
+    height:1rem;
     background-color:rgb(62, 62, 172);
     font-size: 0.5rem;
     padding-top: 7px;
@@ -60,14 +62,15 @@ body{
     text-align: center;
      
 }
+
 .list{
     display: flex;
     justify-content:end;
     align-items: center;
-}
+}   
 .line{
     height:10px;
-}
+} 
  .right1{
     width:13%;
     height:100%;
@@ -99,7 +102,7 @@ body{
         display: flex;
         list-style: none;
         margin-left: 1.67vw;
-        border-color: blue;
+        border-color:blue;
 
     }
     input{
@@ -147,7 +150,7 @@ body{
     
 }
 .left2>img{
-    width: 84%;
+    width: 74%;
     height: 92%;
      padding-left: 1.5vw;
      padding-top: 2vh;
@@ -158,15 +161,15 @@ div{
 }
 .middle2{
 height: 100%;
-width: 43%;
+width: 63%;
 /* background-color: blue; */
 color: aliceblue;
 line-height: 20px;
-font-size: 20px;
+font-size: 14px;
 }
 .middle2>table{
-    padding-left: 0vw;
-    padding-top: 2vh;
+    /* padding-left: 0vw; */
+    /* padding-top: 2vh; */
 }
 .right2{
 width:22% ;
@@ -894,4 +897,113 @@ background-color: indigo;
     100%{
         opacity: 0;
     } 
+}
+ 
+/* Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more. */
+@media screen  and (max-width:480px){
+    .first{
+        height:29vh;
+        /* position: fixed; */
+    }
+    .left1{
+        width:20%;
+    }
+    .left1>span{
+        font-size: 0.3rem;
+    }
+    .first1>.find{
+      width: 30px;
+    }
+     .first1>.middle1{
+        width:38%;
+     }
+     .first1>.right1{
+      width:42%;
+     }
+     .inner{
+        width:90%;
+     }
+     .first1>li{
+        padding-left: 120px;
+        align-items: end;
+     }
+    .left2>img {
+        width: 100%;
+        height:80%;
+    }
+    .first2{
+        height:25%;
+    }
+    .middle2{
+        font-size: 0.5rem;
+        line-height: 7px;
+        padding-left: 20px;
+        width: 80%;
+        /* padding-top: 0.5px; */
+        padding-bottom: 4px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .right2{
+        display: none;
+    }
+    .rightmost2 {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .rightmost2>img{
+        width:70%;
+        height:60%;
+    }
+    .first3>.home{
+        font-size: 0.2rem;
+        line-height: 5px;
+    }
+    .admission{
+        font-size: 0.38rem;
+    }
+    .first4{
+        font-size: 0.4rem;
+    }
+    .middle{
+        position: relative;
+    }
+    .first5{
+     width:100%;
+     height:80%;
+     background-image: cover;
+     position: relative;
+    }
+    .bottom_left{
+        padding-top: 80%;
+        font-size: 1rem;
+    }
+     .msg{
+         height:120%; 
+        /* font-size: 0.6rem;*/
+        line-height: 100%; 
+        padding: 10px 40px 0px 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     .heading{
+        padding-top: 5px;
+        font-size:1.2rem;
+     }
+}
+@media screen  and (max-width:481px)and (max-width:768px){
+
+}
+@media screen  and (max-width:769px)and (max-width:1024px){
+
+}
+@media screen  and (max-width:1025px)and (max-width:1200px){
+
+}
+@media screen  and (max-width:1201px){
+
 }
